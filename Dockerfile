@@ -25,6 +25,3 @@ RUN /usr/local/bin/install-plugins.sh \
     timestamper:1.9 \
     workflow-aggregator:2.6 \
     ws-cleanup:0.37
-
-# disable first-run wizard
-RUN echo 2.0 > /usr/share/jenkins/ref/jenkins.install.UpgradeWizard.state
